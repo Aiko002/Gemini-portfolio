@@ -1,0 +1,300 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Azzah — Developer Portfolio</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script id="tailwind-config" data-stitch-original-src="60dd48071d822dff===../../tailwind.config.js">/** @type {import('tailwindcss').Config} */
+globalThis.tailwind = globalThis.tailwind || {};
+globalThis.tailwind.config = {
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        'lawn-green': '#8DB33F',
+        'lawn-shadow': '#5E8A2B',
+        'mustard-accent': '#E3B23C',
+        'coral-accent': '#EB7A5C',
+        'teal-accent': '#3D8D8A',
+        'denim-accent': '#4A6FA5',
+        'light-primary': '#4A6700',
+        'light-on-primary': '#FFFFFF',
+        'light-primary-container': '#8DB33F',
+        'light-on-primary-container': '#2E4200',
+        'light-secondary': '#546435',
+        'light-on-secondary': '#FFFFFF',
+        'light-secondary-container': '#D7EAAF',
+        'light-on-secondary-container': '#5A6A3B',
+        'light-tertiary': '#8F3E8E',
+        'light-on-tertiary': '#FFFFFF',
+        'light-tertiary-container': '#E186DC',
+        'light-on-tertiary-container': '#661769',
+        'light-error': '#BA1A1A',
+        'light-on-error': '#FFFFFF',
+        'light-error-container': '#FFDAD6',
+        'light-on-error-container': '#93000A',
+        'light-background': '#FAFAEC',
+        'light-on-background': '#1A1D14',
+        'light-surface': '#FAFAEC',
+        'light-surface-dim': '#DADBCE',
+        'light-surface-bright': '#FAFAEC',
+        'light-surface-container-lowest': '#FFFFFF',
+        'light-surface-container-low': '#F4F5E7',
+        'light-surface-container': '#EEEFE1',
+        'light-surface-container-high': '#E8E9DC',
+        'light-surface-container-highest': '#E2E4D6',
+        'light-on-surface': '#1A1D14',
+        'light-surface-variant': '#E0E5CF',
+        'light-on-surface-variant': '#444939',
+        'light-outline': '#747967',
+        'light-outline-variant': '#C4C9B4',
+        'light-inverse-surface': '#2F3128',
+        'light-inverse-on-surface': '#F1F2E4',
+        'light-inverse-primary': '#ACD45C',
+        'light-shadow': '#000000',
+        'light-scrim': '#000000',
+        'dark-primary': '#ACD45C',
+        'dark-on-primary': '#253600',
+        'dark-primary-container': '#8DB33F',
+        'dark-on-primary-container': '#2E4200',
+        'dark-secondary': '#BCCD95',
+        'dark-on-secondary': '#27350B',
+        'dark-secondary-container': '#3D4C20',
+        'dark-on-secondary-container': '#AABC85',
+        'dark-tertiary': '#FFAAF8',
+        'dark-on-tertiary': '#59055C',
+        'dark-tertiary-container': '#E186DC',
+        'dark-on-tertiary-container': '#661769',
+        'dark-error': '#FFB4AB',
+        'dark-on-error': '#690005',
+        'dark-error-container': '#93000A',
+        'dark-on-error-container': '#FFDAD6',
+        'dark-background': '#12140C',
+        'dark-on-background': '#E2E4D6',
+        'dark-surface': '#12140C',
+        'dark-surface-dim': '#12140C',
+        'dark-surface-bright': '#383A31',
+        'dark-surface-container-lowest': '#0D0F08',
+        'dark-surface-container-low': '#1A1D14',
+        'dark-surface-container': '#1E2118',
+        'dark-surface-container-high': '#292B22',
+        'dark-surface-container-highest': '#33362C',
+        'dark-on-surface': '#E2E4D6',
+        'dark-surface-variant': '#444939',
+        'dark-on-surface-variant': '#C4C9B4',
+        'dark-outline': '#8E9380',
+        'dark-outline-variant': '#444939',
+        'dark-inverse-surface': '#E2E4D6',
+        'dark-inverse-on-surface': '#2F3128',
+        'dark-inverse-primary': '#4A6700',
+        'dark-shadow': '#000000',
+        'dark-scrim': '#000000',
+      },
+      borderRadius: {
+        'sm': '4px',
+        'DEFAULT': '8px',
+        'md': '12px',
+        'lg': '16px',
+        'xl': '24px',
+        'full': '9999px',
+      },
+      spacing: {
+        'gutter-xs': '4px',
+        'gutter-sm': '8px',
+        'gutter-md': '16px',
+        'gutter-lg': '24px',
+        'gutter-xl': '32px',
+        'page-margin': '40px',
+        'section': '48px',
+      },
+      fontFamily: {
+        'display': ['"Playfair"', 'sans-serif'],
+        'headline': ['"Poppins"', 'sans-serif'],
+        'title': ['"Poppins"', 'sans-serif'],
+        'body': ['"Poppins"', 'sans-serif'],
+        'label': ['"Poppins"', 'sans-serif'],
+        'mono': ['"Source Code Pro"', 'monospace'],
+      },
+      fontSize: {
+        'display-lg': ['44px', { lineHeight: '52px', letterSpacing: '-0.5px', fontWeight: '600' }],
+        'display-lg-mobile': ['32px', { lineHeight: '38px', letterSpacing: '-0.25px', fontWeight: '600' }],
+        'headline-lg': ['28px', { lineHeight: '36px', letterSpacing: '-0.25px', fontWeight: '300' }],
+        'title-md': ['18px', { lineHeight: '24px', letterSpacing: '0px', fontWeight: '400' }],
+        'body-md': ['14px', { lineHeight: '20px', letterSpacing: '0.1px', fontWeight: '300' }],
+        'label-lg': ['14px', { lineHeight: '20px', letterSpacing: '0.25px', fontWeight: '300' }],
+        'label-sm': ['12px', { lineHeight: '16px', letterSpacing: '0.3px', fontWeight: '300' }],
+        'mono-sm': ['12px', { lineHeight: '16px', letterSpacing: '0px', fontWeight: '400' }],
+      },
+      transitionDuration: {
+        'state-change': '150ms',
+        'surface-enter': '250ms',
+        'surface-exit': '150ms',
+      },
+      transitionDelay: {
+        'state-change': '0ms',
+        'surface-enter': '0ms',
+        'surface-exit': '0ms',
+      },
+      transitionTimingFunction: {
+        'state-change': 'ease-out',
+        'surface-enter': 'cubic-bezier(0.2, 0, 0, 1)',
+        'surface-exit': 'cubic-bezier(0.3, 0, 1, 1)',
+      },
+    },
+  },
+};
+if (typeof module !== 'undefined') module.exports = globalThis.tailwind.config;
+</script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair:wght@600&amp;family=Poppins:wght@300;400;500&amp;family=Source+Code+Pro:wght@400&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=block" rel="stylesheet">
+  <style>
+    .material-symbols-outlined, .material-symbols-rounded, .material-symbols-sharp, .material-icons {
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      line-height: 1 !important;
+      box-sizing: content-box;
+      overflow: hidden;
+      white-space: nowrap;
+      direction: ltr;
+      vertical-align: middle;
+    }
+    .reader-shadow-wrap {
+      filter: drop-shadow(0 10px 18px rgba(46, 66, 0, 0.24));
+    }
+    .reader-figure-lift {
+      clip-path: ellipse(6.5% 10.5% at 72.8% 23.5%);
+      -webkit-mask-image: radial-gradient(ellipse 6.5% 10.5% at 72.8% 23.5%, rgba(0, 0, 0, 1) 62%, rgba(0, 0, 0, 0) 100%);
+      mask-image: radial-gradient(ellipse 6.5% 10.5% at 72.8% 23.5%, rgba(0, 0, 0, 1) 62%, rgba(0, 0, 0, 0) 100%);
+      transform: scale(1.12);
+      transform-origin: 72.8% 23.5%;
+    }
+    .papers-glass-shadow {
+      box-shadow: 0 12px 32px -4px rgba(46, 66, 0, 0.22), 0 4px 12px -2px rgba(46, 66, 0, 0.12);
+    }
+  </style>
+</head>
+<body class="bg-lawn-green text-light-on-primary antialiased selection:bg-light-on-primary selection:text-light-primary">
+  <div class="relative min-h-screen w-full overflow-hidden bg-lawn-green flex flex-col justify-between">
+    <!-- Full-bleed top-down park lawn illustration -->
+    <img src="https://lh3.googleusercontent.com/aida/ALJJyrALalVWoHb-BRHRsOf_qQV_vFZ25t33UWzFhzv7H9TIA1TSk-DJdT2JeGtgLzLUN91XbKKIGZReVmQEMCKeo4EY6t_nV3L2fZndcE8RDmWKmsLgZH_v_D7mna9Nz4sjjeyDOwk4kWAGfo0wwko6AWLTcpij54OAdQ22p5Sm9jsI_G67UeKDG2wDUt8q3FDrsbjYMbbMTiPMCfY9lZtwbrLG-PLQ2McMpYONam5i6t-MgJVZDtzPOwSi" alt="Top-down flat vector illustration of a sunny lime-olive park lawn with small figures playing guitar, sunbathing, reading, wearing a sunhat, tossing a beach ball, picnicking, and sitting with a cat" class="absolute inset-0 w-full h-full object-cover object-center select-none pointer-events-none" data-stitch-original-src="8944bb10d79c396e===../../images/park_lawn_hero.jpg">
+
+    <!-- Hover-state lifted person reading (scaled up with soft shadow) -->
+    <div aria-hidden="true" class="reader-shadow-wrap pointer-events-none absolute inset-0 z-10">
+      <img src="https://lh3.googleusercontent.com/aida/ALJJyrALalVWoHb-BRHRsOf_qQV_vFZ25t33UWzFhzv7H9TIA1TSk-DJdT2JeGtgLzLUN91XbKKIGZReVmQEMCKeo4EY6t_nV3L2fZndcE8RDmWKmsLgZH_v_D7mna9Nz4sjjeyDOwk4kWAGfo0wwko6AWLTcpij54OAdQ22p5Sm9jsI_G67UeKDG2wDUt8q3FDrsbjYMbbMTiPMCfY9lZtwbrLG-PLQ2McMpYONam5i6t-MgJVZDtzPOwSi" alt class="reader-figure-lift w-full h-full object-cover object-center select-none" data-stitch-original-src="8944bb10d79c396e===../../images/park_lawn_hero.jpg">
+    </div>
+
+    <!-- Subtle top canopy shade scrim for crisp white nav legibility -->
+    <div aria-hidden="true" class="pointer-events-none absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-light-on-primary-container/90 via-light-on-primary-container/65 to-transparent"></div>
+
+    <!-- Subtle bottom canopy shade scrim for crisp white marginalia legibility -->
+    <div aria-hidden="true" class="pointer-events-none absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-light-on-primary-container/90 via-light-on-primary-container/65 to-transparent"></div>
+
+    <!-- Top Navigation Bar -->
+    <header class="relative z-10 flex items-center justify-between gap-gutter-lg px-page-margin pt-gutter-xl pb-gutter-md">
+      <!-- Top-left: Logo + Thin geometric sans-serif nav -->
+      <div class="flex items-center gap-section">
+        <a href="#home" aria-label="Azzah home" data-component-id="typography-display" data-component-type="typography" data-component-variant="display" data-design-text-token="display-lg" class="font-display text-display-lg-mobile md:text-display-lg text-light-on-primary leading-none transition-opacity duration-state-change ease-state-change hover:opacity-80">A.</a>
+
+        <nav aria-label="Primary navigation" class="flex items-center gap-gutter-xl">
+          <a href="#home" data-nav-item="home" class="font-label text-label-lg text-light-on-primary border-b border-light-on-primary pb-0.5 transition-opacity duration-state-change ease-state-change hover:opacity-80">
+            <span data-design-text-token="label-lg">Home</span>
+          </a>
+          <a href="#gallery" data-nav-item="gallery" class="font-label text-label-lg text-light-on-primary border-b border-transparent pb-0.5 transition-opacity duration-state-change ease-state-change hover:opacity-80">
+            <span data-design-text-token="label-lg">Gallery</span>
+          </a>
+          <a href="#timeline" data-nav-item="timeline" class="font-label text-label-lg text-light-on-primary border-b border-transparent pb-0.5 transition-opacity duration-state-change ease-state-change hover:opacity-80">
+            <span data-design-text-token="label-lg">Timeline</span>
+          </a>
+        </nav>
+      </div>
+
+      <!-- Top-right: Rounded pill tag + Rounded search field -->
+      <div class="flex items-center gap-gutter-md">
+        <!-- COMPONENT: chip-action -->
+        <button id="status-pill" data-component-id="chip-action" data-component-type="chip" data-component-variant="action" type="button" class="inline-flex items-center justify-center rounded-full border border-light-on-primary/35 bg-light-primary/90 text-light-on-primary px-gutter-md py-gutter-xs font-label text-label-sm transition-colors duration-state-change ease-state-change hover:bg-light-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-light-on-primary">
+          <span data-design-text-token="label-sm">creative developer</span>
+        </button>
+
+        <!-- COMPONENT: searchbar-standard -->
+        <form id="lawn-search-form" data-component-id="searchbar-standard" data-component-type="searchbar" data-component-variant="standard" role="search" class="inline-flex items-center rounded-full border border-light-on-primary/35 bg-light-primary/90 px-gutter-md py-gutter-xs transition-colors duration-state-change ease-state-change focus-within:bg-light-primary focus-within:border-light-on-primary">
+          <input id="search-input-01" type="search" aria-label="Search portfolio" placeholder="Search..." class="w-36 bg-transparent border-0 p-0 font-label text-label-sm text-light-on-primary placeholder:text-light-on-primary/80 focus:ring-0 focus:outline-none">
+          <button type="submit" aria-label="Submit search" class="inline-flex items-center justify-center text-light-on-primary hover:opacity-80 ml-gutter-xs">
+            <span class="material-symbols-outlined text-body-md" aria-hidden="true">search</span>
+          </button>
+        </form>
+      </div>
+    </header>
+
+    <!-- Open Park Lawn Breathing Room + Reader Hover Popup -->
+    <main class="relative z-10 flex-1" aria-label="Sunny park lawn illustration">
+      <!-- Frosted-glass white Papers & Publications popup card beside the person reading -->
+      <section aria-label="Papers and Publications" class="absolute left-[45%] top-[9%] w-80 rounded-md border border-light-on-primary/70 bg-light-surface-container-lowest/85 backdrop-blur-md p-gutter-md papers-glass-shadow">
+        <h2 data-design-text-token="title-md" class="font-title text-title-md text-light-on-surface mb-gutter-sm">Papers &amp; Publications</h2>
+
+        <ul class="flex flex-col gap-gutter-sm mb-gutter-md">
+          <li class="flex flex-col gap-gutter-xs border-b border-light-outline-variant/50 pb-gutter-xs">
+            <span data-design-text-token="body-md" class="font-body text-body-md text-light-on-surface">Calm Interfaces in Spatial Canvases</span>
+            <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-light-on-surface-variant">2025 · ACM CHI</span>
+          </li>
+          <li class="flex flex-col gap-gutter-xs border-b border-light-outline-variant/50 pb-gutter-xs">
+            <span data-design-text-token="body-md" class="font-body text-body-md text-light-on-surface">Reactive Layout Primitives for Flatland</span>
+            <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-light-on-surface-variant">2024 · ACM UIST</span>
+          </li>
+          <li class="flex flex-col gap-gutter-xs">
+            <span data-design-text-token="body-md" class="font-body text-body-md text-light-on-surface">Paper-Grain Shaders in Browser CSS</span>
+            <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-light-on-surface-variant">2023 · SIGGRAPH</span>
+          </li>
+        </ul>
+
+        <a href="#publications" class="inline-flex items-center gap-gutter-xs font-label text-label-sm text-light-primary transition-opacity duration-state-change ease-state-change hover:opacity-75">
+          <span data-design-text-token="label-sm">View all</span>
+          <span class="material-symbols-outlined text-body-md" aria-hidden="true">arrow_forward</span>
+        </a>
+      </section>
+    </main>
+
+    <!-- Bottom Marginalia Bar -->
+    <footer class="relative z-10 flex items-center justify-between gap-gutter-lg px-page-margin pt-gutter-md pb-gutter-xl">
+      <!-- Bottom-left: Two tiny text links -->
+      <div class="flex items-center gap-gutter-lg">
+        <a href="#github" class="font-label text-label-sm text-light-on-primary transition-opacity duration-state-change ease-state-change hover:opacity-80 hover:underline underline-offset-4">
+          <span data-design-text-token="label-sm">GitHub</span>
+        </a>
+        <a href="#email" class="font-label text-label-sm text-light-on-primary transition-opacity duration-state-change ease-state-change hover:opacity-80 hover:underline underline-offset-4">
+          <span data-design-text-token="label-sm">Email</span>
+        </a>
+      </div>
+
+      <!-- Bottom-right: Small tagline -->
+      <p class="font-label text-label-sm text-light-on-primary text-right">
+        <span data-design-text-token="label-sm">azzah — building calm, sunny software</span>
+      </p>
+    </footer>
+  </div>
+
+  <script>
+    (function () {
+      const navLinks = document.querySelectorAll('[data-nav-item]');
+      navLinks.forEach((link) => {
+        link.addEventListener('click', (e) => {
+          e.preventDefault();
+          navLinks.forEach((item) => {
+            item.classList.remove('border-light-on-primary');
+            item.classList.add('border-transparent');
+          });
+          link.classList.remove('border-transparent');
+          link.classList.add('border-light-on-primary');
+        });
+      });
+
+      const searchForm = document.getElementById('lawn-search-form');
+      if (searchForm) {
+        searchForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+        });
+      }
+    })();
+  </script>
+
+
+</body></html>

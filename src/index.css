@@ -1,0 +1,160 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-lawn-green: #8DB33F;
+  --color-lawn-shadow: #5E8A2B;
+  --color-mustard-accent: #E3B23C;
+  --color-coral-accent: #EB7A5C;
+  --color-teal-accent: #3D8D8A;
+  --color-denim-accent: #4A6FA5;
+
+  --color-light-primary: #4A6700;
+  --color-light-on-primary: #FFFFFF;
+  --color-light-primary-container: #8DB33F;
+  --color-light-on-primary-container: #2E4200;
+  --color-light-secondary: #546435;
+  --color-light-on-secondary: #FFFFFF;
+  --color-light-secondary-container: #D7EAAF;
+  --color-light-on-secondary-container: #5A6A3B;
+  --color-light-tertiary: #8F3E8E;
+  --color-light-on-tertiary: #FFFFFF;
+  --color-light-tertiary-container: #E186DC;
+  --color-light-on-tertiary-container: #661769;
+  --color-light-error: #BA1A1A;
+  --color-light-on-error: #FFFFFF;
+  --color-light-error-container: #FFDAD6;
+  --color-light-on-error-container: #93000A;
+  --color-light-background: #FAFAEC;
+  --color-light-on-background: #1A1D14;
+  --color-light-surface: #FAFAEC;
+  --color-light-surface-dim: #DADBCE;
+  --color-light-surface-bright: #FAFAEC;
+  --color-light-surface-container-lowest: #FFFFFF;
+  --color-light-surface-container-low: #F4F5E7;
+  --color-light-surface-container: #EEEFE1;
+  --color-light-surface-container-high: #E8E9DC;
+  --color-light-surface-container-highest: #E2E4D6;
+  --color-light-on-surface: #1A1D14;
+  --color-light-surface-variant: #E0E5CF;
+  --color-light-on-surface-variant: #444939;
+  --color-light-outline: #747967;
+  --color-light-outline-variant: #C4C9B4;
+  --color-light-inverse-surface: #2F3128;
+  --color-light-inverse-on-surface: #F1F2E4;
+  --color-light-inverse-primary: #ACD45C;
+
+  --font-display: "Playfair", Georgia, serif;
+  --font-headline: "Poppins", system-ui, sans-serif;
+  --font-title: "Poppins", system-ui, sans-serif;
+  --font-body: "Poppins", system-ui, sans-serif;
+  --font-label: "Poppins", system-ui, sans-serif;
+  --font-mono: "Source Code Pro", ui-monospace, monospace;
+
+  --spacing-gutter-xs: 4px;
+  --spacing-gutter-sm: 8px;
+  --spacing-gutter-md: 16px;
+  --spacing-gutter-lg: 24px;
+  --spacing-gutter-xl: 32px;
+  --spacing-page-margin: 40px;
+  --spacing-section: 48px;
+}
+
+.material-symbols-outlined {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1 !important;
+  box-sizing: content-box;
+  overflow: hidden;
+  white-space: nowrap;
+  direction: ltr;
+  vertical-align: middle;
+}
+
+/* Typographic scale tokens from Stitch design */
+.text-display-lg {
+  font-size: 44px;
+  line-height: 52px;
+  letter-spacing: -0.5px;
+  font-weight: 600;
+}
+
+.text-display-lg-mobile {
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: -0.25px;
+  font-weight: 600;
+}
+
+.text-headline-lg {
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -0.25px;
+  font-weight: 300;
+}
+
+.text-title-md {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  font-weight: 400;
+}
+
+.text-body-md {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  font-weight: 300;
+}
+
+.text-label-lg {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  font-weight: 300;
+}
+
+.text-label-sm {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.3px;
+  font-weight: 300;
+}
+
+.text-mono-sm {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0px;
+  font-weight: 400;
+}
+
+.lawn-glass-shadow {
+  box-shadow: 0 12px 32px -4px rgba(46, 66, 0, 0.22), 0 4px 12px -2px rgba(46, 66, 0, 0.12);
+}
+
+.sheet-shadow {
+  box-shadow: 0 -8px 28px -4px rgba(46, 66, 0, 0.22);
+}
+
+.figure-shadow-wrap {
+  filter: drop-shadow(0 12px 22px rgba(46, 66, 0, 0.28));
+}
+
+/* Golden hour atmospheric warm amber-olive color grading */
+.golden-hour-surface {
+  filter: sepia(0) saturate(1) brightness(1) hue-rotate(0deg);
+  transition: filter 600ms cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: filter;
+}
+
+.golden-hour-grade {
+  filter: sepia(0.28) saturate(1.22) brightness(0.95) hue-rotate(-14deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}

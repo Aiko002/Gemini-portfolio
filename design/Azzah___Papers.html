@@ -1,0 +1,484 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Papers &amp; Publications — Azzah</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script id="tailwind-config" data-stitch-original-src="60dd48071d822dff===../../tailwind.config.js">/** @type {import('tailwindcss').Config} */
+globalThis.tailwind = globalThis.tailwind || {};
+globalThis.tailwind.config = {
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        'lawn-green': '#8DB33F',
+        'lawn-shadow': '#5E8A2B',
+        'mustard-accent': '#E3B23C',
+        'coral-accent': '#EB7A5C',
+        'teal-accent': '#3D8D8A',
+        'denim-accent': '#4A6FA5',
+        'light-primary': '#4A6700',
+        'light-on-primary': '#FFFFFF',
+        'light-primary-container': '#8DB33F',
+        'light-on-primary-container': '#2E4200',
+        'light-secondary': '#546435',
+        'light-on-secondary': '#FFFFFF',
+        'light-secondary-container': '#D7EAAF',
+        'light-on-secondary-container': '#5A6A3B',
+        'light-tertiary': '#8F3E8E',
+        'light-on-tertiary': '#FFFFFF',
+        'light-tertiary-container': '#E186DC',
+        'light-on-tertiary-container': '#661769',
+        'light-error': '#BA1A1A',
+        'light-on-error': '#FFFFFF',
+        'light-error-container': '#FFDAD6',
+        'light-on-error-container': '#93000A',
+        'light-background': '#FAFAEC',
+        'light-on-background': '#1A1D14',
+        'light-surface': '#FAFAEC',
+        'light-surface-dim': '#DADBCE',
+        'light-surface-bright': '#FAFAEC',
+        'light-surface-container-lowest': '#FFFFFF',
+        'light-surface-container-low': '#F4F5E7',
+        'light-surface-container': '#EEEFE1',
+        'light-surface-container-high': '#E8E9DC',
+        'light-surface-container-highest': '#E2E4D6',
+        'light-on-surface': '#1A1D14',
+        'light-surface-variant': '#E0E5CF',
+        'light-on-surface-variant': '#444939',
+        'light-outline': '#747967',
+        'light-outline-variant': '#C4C9B4',
+        'light-inverse-surface': '#2F3128',
+        'light-inverse-on-surface': '#F1F2E4',
+        'light-inverse-primary': '#ACD45C',
+        'light-shadow': '#000000',
+        'light-scrim': '#000000',
+        'dark-primary': '#ACD45C',
+        'dark-on-primary': '#253600',
+        'dark-primary-container': '#8DB33F',
+        'dark-on-primary-container': '#2E4200',
+        'dark-secondary': '#BCCD95',
+        'dark-on-secondary': '#27350B',
+        'dark-secondary-container': '#3D4C20',
+        'dark-on-secondary-container': '#AABC85',
+        'dark-tertiary': '#FFAAF8',
+        'dark-on-tertiary': '#59055C',
+        'dark-tertiary-container': '#E186DC',
+        'dark-on-tertiary-container': '#661769',
+        'dark-error': '#FFB4AB',
+        'dark-on-error': '#690005',
+        'dark-error-container': '#93000A',
+        'dark-on-error-container': '#FFDAD6',
+        'dark-background': '#12140C',
+        'dark-on-background': '#E2E4D6',
+        'dark-surface': '#12140C',
+        'dark-surface-dim': '#12140C',
+        'dark-surface-bright': '#383A31',
+        'dark-surface-container-lowest': '#0D0F08',
+        'dark-surface-container-low': '#1A1D14',
+        'dark-surface-container': '#1E2118',
+        'dark-surface-container-high': '#292B22',
+        'dark-surface-container-highest': '#33362C',
+        'dark-on-surface': '#E2E4D6',
+        'dark-surface-variant': '#444939',
+        'dark-on-surface-variant': '#C4C9B4',
+        'dark-outline': '#8E9380',
+        'dark-outline-variant': '#444939',
+        'dark-inverse-surface': '#E2E4D6',
+        'dark-inverse-on-surface': '#2F3128',
+        'dark-inverse-primary': '#4A6700',
+        'dark-shadow': '#000000',
+        'dark-scrim': '#000000',
+      },
+      borderRadius: {
+        'sm': '4px',
+        'DEFAULT': '8px',
+        'md': '12px',
+        'lg': '16px',
+        'xl': '24px',
+        'full': '9999px',
+      },
+      spacing: {
+        'gutter-xs': '4px',
+        'gutter-sm': '8px',
+        'gutter-md': '16px',
+        'gutter-lg': '24px',
+        'gutter-xl': '32px',
+        'page-margin': '40px',
+        'section': '48px',
+      },
+      fontFamily: {
+        'display': ['"Playfair"', 'sans-serif'],
+        'headline': ['"Poppins"', 'sans-serif'],
+        'title': ['"Poppins"', 'sans-serif'],
+        'body': ['"Poppins"', 'sans-serif'],
+        'label': ['"Poppins"', 'sans-serif'],
+        'mono': ['"Source Code Pro"', 'monospace'],
+      },
+      fontSize: {
+        'display-lg': ['44px', { lineHeight: '52px', letterSpacing: '-0.5px', fontWeight: '600' }],
+        'display-lg-mobile': ['32px', { lineHeight: '38px', letterSpacing: '-0.25px', fontWeight: '600' }],
+        'headline-lg': ['28px', { lineHeight: '36px', letterSpacing: '-0.25px', fontWeight: '300' }],
+        'title-md': ['18px', { lineHeight: '24px', letterSpacing: '0px', fontWeight: '400' }],
+        'body-md': ['14px', { lineHeight: '20px', letterSpacing: '0.1px', fontWeight: '300' }],
+        'label-lg': ['14px', { lineHeight: '20px', letterSpacing: '0.25px', fontWeight: '300' }],
+        'label-sm': ['12px', { lineHeight: '16px', letterSpacing: '0.3px', fontWeight: '300' }],
+        'mono-sm': ['12px', { lineHeight: '16px', letterSpacing: '0px', fontWeight: '400' }],
+      },
+      transitionDuration: {
+        'state-change': '150ms',
+        'surface-enter': '250ms',
+        'surface-exit': '150ms',
+      },
+      transitionDelay: {
+        'state-change': '0ms',
+        'surface-enter': '0ms',
+        'surface-exit': '0ms',
+      },
+      transitionTimingFunction: {
+        'state-change': 'ease-out',
+        'surface-enter': 'cubic-bezier(0.2, 0, 0, 1)',
+        'surface-exit': 'cubic-bezier(0.3, 0, 1, 1)',
+      },
+    },
+  },
+};
+if (typeof module !== 'undefined') module.exports = globalThis.tailwind.config;
+</script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair:wght@600&amp;family=Poppins:wght@300;400;500&amp;family=Source+Code+Pro:wght@400&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=block" rel="stylesheet">
+  <style>
+    .material-symbols-outlined, .material-symbols-rounded, .material-symbols-sharp, .material-icons {
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      line-height: 1 !important;
+      box-sizing: content-box;
+      overflow: hidden;
+      white-space: nowrap;
+      direction: ltr;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body class="bg-light-surface text-light-on-surface antialiased selection:bg-light-primary selection:text-light-on-primary">
+  <div class="min-h-screen w-full flex flex-col bg-light-surface">
+    <!-- Soft green grain header band with peeking mascot -->
+    <header class="relative w-full overflow-hidden bg-lawn-green">
+      <img src="https://lh3.googleusercontent.com/aida/ALJJyrBql952sck8fnoaCTQoFqRAmkf5W9ULnlDe7TLotDJXBD5zeVNxm7pro4WJG_O5P1yqXW73I7MBv_ffA7ReMOwvY4PzWz9X9vkQtLT7n0rJV42dWzSGqcgQHWn-k9GKsvl7-luYdgrI_eI5qPEYnupsojWfaa5hO2nGcHpEtpF2mfQMT-fM4uVmmuyE1TRAHKuqjZ8VXlQVpwGlyrA1-55tafp1ZaXkDlSahwsiHhoYAU_VJY-rJnUYiYG1Cr0" alt="Top-down lime-olive grass texture with a small illustrated person lying in the bottom-right corner" class="absolute inset-0 w-full h-full object-cover object-bottom select-none pointer-events-none" data-stitch-original-src="ce7f2f78573060e2===../../images/lawn_header_mascot.jpg">
+      <div aria-hidden="true" class="pointer-events-none absolute inset-0 bg-gradient-to-r from-light-on-primary-container/85 via-light-on-primary-container/50 to-transparent"></div>
+      <div aria-hidden="true" class="pointer-events-none absolute inset-x-0 top-0 h-28 bg-gradient-to-b from-light-on-primary-container/75 to-transparent"></div>
+
+      <div class="relative z-10 max-w-6xl mx-auto px-page-margin pt-gutter-xl pb-section flex flex-col gap-gutter-xl">
+        <!-- Top Navigation Bar (same shell as landing & projects) -->
+        <div class="flex items-center justify-between gap-gutter-lg">
+          <div class="flex items-center gap-section">
+            <a href="../home/AzzahPortfolioLanding.html" aria-label="Azzah home" data-component-id="typography-display" data-component-type="typography" data-component-variant="display" data-design-text-token="display-lg" class="font-display text-display-lg-mobile md:text-display-lg text-light-on-primary leading-none transition-opacity duration-state-change ease-state-change hover:opacity-80">A.</a>
+
+            <nav aria-label="Primary navigation" class="flex items-center gap-gutter-xl">
+              <a href="../home/AzzahPortfolioLanding.html" class="font-label text-label-lg text-light-on-primary border-b border-transparent pb-0.5 transition-opacity duration-state-change ease-state-change hover:opacity-80">
+                <span data-design-text-token="label-lg">Home</span>
+              </a>
+              <a href="../projects/AzzahProjects.html" class="font-label text-label-lg text-light-on-primary border-b border-transparent pb-0.5 transition-opacity duration-state-change ease-state-change hover:opacity-80">
+                <span data-design-text-token="label-lg">Gallery</span>
+              </a>
+              <a href="#timeline" class="font-label text-label-lg text-light-on-primary border-b border-transparent pb-0.5 transition-opacity duration-state-change ease-state-change hover:opacity-80">
+                <span data-design-text-token="label-lg">Timeline</span>
+              </a>
+            </nav>
+          </div>
+
+          <div class="flex items-center gap-gutter-md">
+            <!-- COMPONENT: chip-action -->
+            <button data-component-id="chip-action" data-component-type="chip" data-component-variant="action" type="button" class="inline-flex items-center justify-center rounded-full border border-light-on-primary/35 bg-light-primary/90 text-light-on-primary px-gutter-md py-gutter-xs font-label text-label-sm transition-colors duration-state-change ease-state-change hover:bg-light-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-light-on-primary">
+              <span data-design-text-token="label-sm">creative developer</span>
+            </button>
+
+            <!-- COMPONENT: searchbar-standard -->
+            <form data-component-id="searchbar-standard" data-component-type="searchbar" data-component-variant="standard" role="search" class="inline-flex items-center rounded-full border border-light-on-primary/35 bg-light-primary/90 px-gutter-md py-gutter-xs transition-colors duration-state-change ease-state-change focus-within:bg-light-primary focus-within:border-light-on-primary">
+              <input id="search-papers-01" type="search" aria-label="Search papers" placeholder="Search..." class="w-36 bg-transparent border-0 p-0 font-label text-label-sm text-light-on-primary placeholder:text-light-on-primary/80 focus:ring-0 focus:outline-none">
+              <button type="submit" aria-label="Submit search" class="inline-flex items-center justify-center text-light-on-primary hover:opacity-80 ml-gutter-xs">
+                <span class="material-symbols-outlined text-body-md" aria-hidden="true">search</span>
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Header Title & Back to the Lawn Link -->
+        <div class="flex flex-col items-start gap-gutter-sm max-w-xl">
+          <a href="../home/AzzahPortfolioLanding.html" class="inline-flex items-center gap-gutter-xs rounded-full border border-light-on-primary/40 bg-light-primary/85 px-gutter-md py-gutter-xs font-label text-label-sm text-light-on-primary transition-colors duration-state-change ease-state-change hover:bg-light-primary">
+            <span class="material-symbols-outlined text-body-md" aria-hidden="true">arrow_back</span>
+            <span data-design-text-token="label-sm">Back to the lawn</span>
+          </a>
+
+          <h1 data-design-text-token="display-lg" class="font-display text-display-lg-mobile md:text-display-lg text-light-on-primary mt-gutter-xs">Papers &amp; Publications</h1>
+          <p data-design-text-token="body-md" class="font-body text-body-md text-light-on-primary">Research notes, peer-reviewed papers, and open-source implementations on spatial interfaces.</p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Papers List & Filter Chips -->
+    <main class="flex-1 w-full max-w-6xl mx-auto px-page-margin py-section">
+      <!-- Filter Chips Bar: Year + Topic -->
+      <section aria-label="Filter publications" class="flex flex-col gap-gutter-md mb-gutter-xl">
+        <div class="flex flex-wrap items-center gap-gutter-sm">
+          <span data-design-text-token="label-sm" class="font-label text-label-sm text-light-on-surface-variant mr-gutter-xs">Year:</span>
+          <button type="button" data-filter-year="all" aria-pressed="true" class="year-chip rounded-full bg-light-primary text-light-on-primary px-gutter-md py-gutter-xs font-label text-label-sm transition-colors duration-state-change ease-state-change">
+            <span data-design-text-token="label-sm">All</span>
+          </button>
+          <button type="button" data-filter-year="2025" aria-pressed="false" class="year-chip rounded-full border border-light-outline-variant bg-light-surface-container-lowest text-light-on-surface px-gutter-md py-gutter-xs font-label text-label-sm transition-colors duration-state-change ease-state-change hover:bg-light-surface-container">
+            <span data-design-text-token="label-sm">2025</span>
+          </button>
+          <button type="button" data-filter-year="2024" aria-pressed="false" class="year-chip rounded-full border border-light-outline-variant bg-light-surface-container-lowest text-light-on-surface px-gutter-md py-gutter-xs font-label text-label-sm transition-colors duration-state-change ease-state-change hover:bg-light-surface-container">
+            <span data-design-text-token="label-sm">2024</span>
+          </button>
+          <button type="button" data-filter-year="2023" aria-pressed="false" class="year-chip rounded-full border border-light-outline-variant bg-light-surface-container-lowest text-light-on-surface px-gutter-md py-gutter-xs font-label text-label-sm transition-colors duration-state-change ease-state-change hover:bg-light-surface-container">
+            <span data-design-text-token="label-sm">2023</span>
+          </button>
+          <button type="button" data-filter-year="2022" aria-pressed="false" class="year-chip rounded-full border border-light-outline-variant bg-light-surface-container-lowest text-light-on-surface px-gutter-md py-gutter-xs font-label text-label-sm transition-colors duration-state-change ease-state-change hover:bg-light-surface-container">
+            <span data-design-text-token="label-sm">2022</span>
+          </button>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-gutter-sm">
+          <span data-design-text-token="label-sm" class="font-label text-label-sm text-light-on-surface-variant mr-gutter-xs">Topic:</span>
+          <button type="button" data-filter-topic="all" aria-pressed="true" class="topic-chip rounded-full bg-light-secondary-container text-light-on-secondary-container px-gutter-md py-gutter-xs font-label text-label-sm transition-colors duration-state-change ease-state-change">
+            <span data-design-text-token="label-sm">All topics</span>
+          </button>
+          <button type="button" data-filter-topic="Spatial UI" aria-pressed="false" class="topic-chip rounded-full border border-light-outline-variant bg-light-surface-container-lowest text-light-on-surface px-gutter-md py-gutter-xs font-label text-label-sm transition-colors duration-state-change ease-state-change hover:bg-light-surface-container">
+            <span data-design-text-token="label-sm">Spatial UI</span>
+          </button>
+          <button type="button" data-filter-topic="Systems" aria-pressed="false" class="topic-chip rounded-full border border-light-outline-variant bg-light-surface-container-lowest text-light-on-surface px-gutter-md py-gutter-xs font-label text-label-sm transition-colors duration-state-change ease-state-change hover:bg-light-surface-container">
+            <span data-design-text-token="label-sm">Systems</span>
+          </button>
+          <button type="button" data-filter-topic="Graphics" aria-pressed="false" class="topic-chip rounded-full border border-light-outline-variant bg-light-surface-container-lowest text-light-on-surface px-gutter-md py-gutter-xs font-label text-label-sm transition-colors duration-state-change ease-state-change hover:bg-light-surface-container">
+            <span data-design-text-token="label-sm">Graphics</span>
+          </button>
+          <button type="button" data-filter-topic="Tooling" aria-pressed="false" class="topic-chip rounded-full border border-light-outline-variant bg-light-surface-container-lowest text-light-on-surface px-gutter-md py-gutter-xs font-label text-label-sm transition-colors duration-state-change ease-state-change hover:bg-light-surface-container">
+            <span data-design-text-token="label-sm">Tooling</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- Clean List Layout -->
+      <section aria-label="Publications list" class="flex flex-col divide-y divide-light-outline-variant/60 border-y border-light-outline-variant/60">
+        <!-- Paper 1 -->
+        <article data-paper-year="2025" data-paper-topic="Spatial UI" class="paper-row py-gutter-lg flex flex-col md:flex-row md:items-center justify-between gap-gutter-lg">
+          <div class="flex flex-col gap-gutter-xs">
+            <div class="flex flex-wrap items-center gap-gutter-sm">
+              <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-light-on-surface-variant tabular-nums">2025 · ACM CHI</span>
+              <span data-design-text-token="label-sm" class="rounded-full bg-light-secondary-container text-light-on-secondary-container px-gutter-sm py-gutter-xs font-label text-label-sm">Spatial UI</span>
+            </div>
+            <h2 data-design-text-token="title-md" class="font-title text-title-md text-light-on-surface">Calm Interfaces in Spatial Canvases</h2>
+            <p data-design-text-token="body-md" class="font-body text-body-md text-light-on-surface-variant">
+              <span class="font-medium text-light-on-surface">Azzah</span>, Maya Lin, Rohan Patel
+            </p>
+          </div>
+
+          <div class="flex items-center gap-gutter-sm shrink-0">
+            <a href="#pdf-calm-interfaces" class="inline-flex items-center gap-gutter-xs rounded-full border border-light-outline-variant bg-light-surface-container-lowest px-gutter-md py-gutter-xs font-label text-label-sm text-light-on-surface transition-colors duration-state-change ease-state-change hover:bg-light-primary hover:text-light-on-primary hover:border-light-primary">
+              <span class="material-symbols-outlined text-body-md" aria-hidden="true">picture_as_pdf</span>
+              <span data-design-text-token="label-sm">PDF</span>
+            </a>
+            <button type="button" class="cite-btn inline-flex items-center gap-gutter-xs rounded-full border border-light-outline-variant bg-light-surface-container-lowest px-gutter-md py-gutter-xs font-label text-label-sm text-light-on-surface transition-colors duration-state-change ease-state-change hover:bg-light-primary hover:text-light-on-primary hover:border-light-primary">
+              <span class="material-symbols-outlined text-body-md" aria-hidden="true">format_quote</span>
+              <span data-design-text-token="label-sm">Cite</span>
+            </button>
+            <a href="#code-calm-interfaces" class="inline-flex items-center gap-gutter-xs rounded-full border border-light-outline-variant bg-light-surface-container-lowest px-gutter-md py-gutter-xs font-label text-label-sm text-light-on-surface transition-colors duration-state-change ease-state-change hover:bg-light-primary hover:text-light-on-primary hover:border-light-primary">
+              <span class="material-symbols-outlined text-body-md" aria-hidden="true">code</span>
+              <span data-design-text-token="label-sm">Code</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- Paper 2 -->
+        <article data-paper-year="2024" data-paper-topic="Systems" class="paper-row py-gutter-lg flex flex-col md:flex-row md:items-center justify-between gap-gutter-lg">
+          <div class="flex flex-col gap-gutter-xs">
+            <div class="flex flex-wrap items-center gap-gutter-sm">
+              <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-light-on-surface-variant tabular-nums">2024 · ACM UIST</span>
+              <span data-design-text-token="label-sm" class="rounded-full bg-light-secondary-container text-light-on-secondary-container px-gutter-sm py-gutter-xs font-label text-label-sm">Systems</span>
+            </div>
+            <h2 data-design-text-token="title-md" class="font-title text-title-md text-light-on-surface">Reactive Layout Primitives for Flatland</h2>
+            <p data-design-text-token="body-md" class="font-body text-body-md text-light-on-surface-variant">
+              <span class="font-medium text-light-on-surface">Azzah</span>, Kenji Sato
+            </p>
+          </div>
+
+          <div class="flex items-center gap-gutter-sm shrink-0">
+            <a href="#pdf-flatland" class="inline-flex items-center gap-gutter-xs rounded-full border border-light-outline-variant bg-light-surface-container-lowest px-gutter-md py-gutter-xs font-label text-label-sm text-light-on-surface transition-colors duration-state-change ease-state-change hover:bg-light-primary hover:text-light-on-primary hover:border-light-primary">
+              <span class="material-symbols-outlined text-body-md" aria-hidden="true">picture_as_pdf</span>
+              <span data-design-text-token="label-sm">PDF</span>
+            </a>
+            <button type="button" class="cite-btn inline-flex items-center gap-gutter-xs rounded-full border border-light-outline-variant bg-light-surface-container-lowest px-gutter-md py-gutter-xs font-label text-label-sm text-light-on-surface transition-colors duration-state-change ease-state-change hover:bg-light-primary hover:text-light-on-primary hover:border-light-primary">
+              <span class="material-symbols-outlined text-body-md" aria-hidden="true">format_quote</span>
+              <span data-design-text-token="label-sm">Cite</span>
+            </button>
+            <a href="#code-flatland" class="inline-flex items-center gap-gutter-xs rounded-full border border-light-outline-variant bg-light-surface-container-lowest px-gutter-md py-gutter-xs font-label text-label-sm text-light-on-surface transition-colors duration-state-change ease-state-change hover:bg-light-primary hover:text-light-on-primary hover:border-light-primary">
+              <span class="material-symbols-outlined text-body-md" aria-hidden="true">code</span>
+              <span data-design-text-token="label-sm">Code</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- Paper 3 -->
+        <article data-paper-year="2023" data-paper-topic="Graphics" class="paper-row py-gutter-lg flex flex-col md:flex-row md:items-center justify-between gap-gutter-lg">
+          <div class="flex flex-col gap-gutter-xs">
+            <div class="flex flex-wrap items-center gap-gutter-sm">
+              <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-light-on-surface-variant tabular-nums">2023 · SIGGRAPH</span>
+              <span data-design-text-token="label-sm" class="rounded-full bg-light-secondary-container text-light-on-secondary-container px-gutter-sm py-gutter-xs font-label text-label-sm">Graphics</span>
+            </div>
+            <h2 data-design-text-token="title-md" class="font-title text-title-md text-light-on-surface">Paper-Grain Shaders in Browser CSS</h2>
+            <p data-design-text-token="body-md" class="font-body text-body-md text-light-on-surface-variant">
+              <span class="font-medium text-light-on-surface">Azzah</span>
+            </p>
+          </div>
+
+          <div class="flex items-center gap-gutter-sm shrink-0">
+            <a href="#pdf-papergrain" class="inline-flex items-center gap-gutter-xs rounded-full border border-light-outline-variant bg-light-surface-container-lowest px-gutter-md py-gutter-xs font-label text-label-sm text-light-on-surface transition-colors duration-state-change ease-state-change hover:bg-light-primary hover:text-light-on-primary hover:border-light-primary">
+              <span class="material-symbols-outlined text-body-md" aria-hidden="true">picture_as_pdf</span>
+              <span data-design-text-token="label-sm">PDF</span>
+            </a>
+            <button type="button" class="cite-btn inline-flex items-center gap-gutter-xs rounded-full border border-light-outline-variant bg-light-surface-container-lowest px-gutter-md py-gutter-xs font-label text-label-sm text-light-on-surface transition-colors duration-state-change ease-state-change hover:bg-light-primary hover:text-light-on-primary hover:border-light-primary">
+              <span class="material-symbols-outlined text-body-md" aria-hidden="true">format_quote</span>
+              <span data-design-text-token="label-sm">Cite</span>
+            </button>
+            <a href="#code-papergrain" class="inline-flex items-center gap-gutter-xs rounded-full border border-light-outline-variant bg-light-surface-container-lowest px-gutter-md py-gutter-xs font-label text-label-sm text-light-on-surface transition-colors duration-state-change ease-state-change hover:bg-light-primary hover:text-light-on-primary hover:border-light-primary">
+              <span class="material-symbols-outlined text-body-md" aria-hidden="true">code</span>
+              <span data-design-text-token="label-sm">Code</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- Paper 4 -->
+        <article data-paper-year="2023" data-paper-topic="Tooling" class="paper-row py-gutter-lg flex flex-col md:flex-row md:items-center justify-between gap-gutter-lg">
+          <div class="flex flex-col gap-gutter-xs">
+            <div class="flex flex-wrap items-center gap-gutter-sm">
+              <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-light-on-surface-variant tabular-nums">2023 · ACM Hypertext</span>
+              <span data-design-text-token="label-sm" class="rounded-full bg-light-secondary-container text-light-on-secondary-container px-gutter-sm py-gutter-xs font-label text-label-sm">Tooling</span>
+            </div>
+            <h2 data-design-text-token="title-md" class="font-title text-title-md text-light-on-surface">Local-First Marginalia for Longform Reading</h2>
+            <p data-design-text-token="body-md" class="font-body text-body-md text-light-on-surface-variant">
+              <span class="font-medium text-light-on-surface">Azzah</span>, David Okafor
+            </p>
+          </div>
+
+          <div class="flex items-center gap-gutter-sm shrink-0">
+            <a href="#pdf-marginalia" class="inline-flex items-center gap-gutter-xs rounded-full border border-light-outline-variant bg-light-surface-container-lowest px-gutter-md py-gutter-xs font-label text-label-sm text-light-on-surface transition-colors duration-state-change ease-state-change hover:bg-light-primary hover:text-light-on-primary hover:border-light-primary">
+              <span class="material-symbols-outlined text-body-md" aria-hidden="true">picture_as_pdf</span>
+              <span data-design-text-token="label-sm">PDF</span>
+            </a>
+            <button type="button" class="cite-btn inline-flex items-center gap-gutter-xs rounded-full border border-light-outline-variant bg-light-surface-container-lowest px-gutter-md py-gutter-xs font-label text-label-sm text-light-on-surface transition-colors duration-state-change ease-state-change hover:bg-light-primary hover:text-light-on-primary hover:border-light-primary">
+              <span class="material-symbols-outlined text-body-md" aria-hidden="true">format_quote</span>
+              <span data-design-text-token="label-sm">Cite</span>
+            </button>
+            <a href="#code-marginalia" class="inline-flex items-center gap-gutter-xs rounded-full border border-light-outline-variant bg-light-surface-container-lowest px-gutter-md py-gutter-xs font-label text-label-sm text-light-on-surface transition-colors duration-state-change ease-state-change hover:bg-light-primary hover:text-light-on-primary hover:border-light-primary">
+              <span class="material-symbols-outlined text-body-md" aria-hidden="true">code</span>
+              <span data-design-text-token="label-sm">Code</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- Paper 5 -->
+        <article data-paper-year="2022" data-paper-topic="Spatial UI" class="paper-row py-gutter-lg flex flex-col md:flex-row md:items-center justify-between gap-gutter-lg">
+          <div class="flex flex-col gap-gutter-xs">
+            <div class="flex flex-wrap items-center gap-gutter-sm">
+              <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-light-on-surface-variant tabular-nums">2022 · IEEE VIS</span>
+              <span data-design-text-token="label-sm" class="rounded-full bg-light-secondary-container text-light-on-secondary-container px-gutter-sm py-gutter-xs font-label text-label-sm">Spatial UI</span>
+            </div>
+            <h2 data-design-text-token="title-md" class="font-title text-title-md text-light-on-surface">Deterministic Grid Snap for Infinite Boards</h2>
+            <p data-design-text-token="body-md" class="font-body text-body-md text-light-on-surface-variant">
+              Sora Chen, <span class="font-medium text-light-on-surface">Azzah</span>
+            </p>
+          </div>
+
+          <div class="flex items-center gap-gutter-sm shrink-0">
+            <a href="#pdf-grid-snap" class="inline-flex items-center gap-gutter-xs rounded-full border border-light-outline-variant bg-light-surface-container-lowest px-gutter-md py-gutter-xs font-label text-label-sm text-light-on-surface transition-colors duration-state-change ease-state-change hover:bg-light-primary hover:text-light-on-primary hover:border-light-primary">
+              <span class="material-symbols-outlined text-body-md" aria-hidden="true">picture_as_pdf</span>
+              <span data-design-text-token="label-sm">PDF</span>
+            </a>
+            <button type="button" class="cite-btn inline-flex items-center gap-gutter-xs rounded-full border border-light-outline-variant bg-light-surface-container-lowest px-gutter-md py-gutter-xs font-label text-label-sm text-light-on-surface transition-colors duration-state-change ease-state-change hover:bg-light-primary hover:text-light-on-primary hover:border-light-primary">
+              <span class="material-symbols-outlined text-body-md" aria-hidden="true">format_quote</span>
+              <span data-design-text-token="label-sm">Cite</span>
+            </button>
+            <a href="#code-grid-snap" class="inline-flex items-center gap-gutter-xs rounded-full border border-light-outline-variant bg-light-surface-container-lowest px-gutter-md py-gutter-xs font-label text-label-sm text-light-on-surface transition-colors duration-state-change ease-state-change hover:bg-light-primary hover:text-light-on-primary hover:border-light-primary">
+              <span class="material-symbols-outlined text-body-md" aria-hidden="true">code</span>
+              <span data-design-text-token="label-sm">Code</span>
+            </a>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <!-- Footer Marginalia -->
+    <footer class="w-full border-t border-light-outline-variant/60">
+      <div class="max-w-6xl mx-auto px-page-margin py-gutter-lg flex items-center justify-between gap-gutter-lg">
+        <div class="flex items-center gap-gutter-lg">
+          <a href="#github" class="font-label text-label-sm text-light-on-surface-variant transition-colors duration-state-change ease-state-change hover:text-light-on-surface hover:underline underline-offset-4">
+            <span data-design-text-token="label-sm">GitHub</span>
+          </a>
+          <a href="#email" class="font-label text-label-sm text-light-on-surface-variant transition-colors duration-state-change ease-state-change hover:text-light-on-surface hover:underline underline-offset-4">
+            <span data-design-text-token="label-sm">Email</span>
+          </a>
+        </div>
+
+        <p class="font-label text-label-sm text-light-on-surface-variant text-right">
+          <span data-design-text-token="label-sm">azzah — building calm, sunny software</span>
+        </p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    (function () {
+      let activeYear = 'all';
+      let activeTopic = 'all';
+
+      const yearChips = document.querySelectorAll('.year-chip');
+      const topicChips = document.querySelectorAll('.topic-chip');
+      const rows = document.querySelectorAll('.paper-row');
+
+      function applyFilters() {
+        rows.forEach((row) => {
+          const matchYear = activeYear === 'all' || row.dataset.paperYear === activeYear;
+          const matchTopic = activeTopic === 'all' || row.dataset.paperTopic === activeTopic;
+          row.classList.toggle('hidden', !(matchYear && matchTopic));
+        });
+      }
+
+      yearChips.forEach((chip) => {
+        chip.addEventListener('click', () => {
+          activeYear = chip.dataset.filterYear;
+          yearChips.forEach((c) => {
+            const isActive = c === chip;
+            c.setAttribute('aria-pressed', String(isActive));
+            c.classList.toggle('bg-light-primary', isActive);
+            c.classList.toggle('text-light-on-primary', isActive);
+            c.classList.toggle('border', !isActive);
+            c.classList.toggle('border-light-outline-variant', !isActive);
+            c.classList.toggle('bg-light-surface-container-lowest', !isActive);
+            c.classList.toggle('text-light-on-surface', !isActive);
+          });
+          applyFilters();
+        });
+      });
+
+      topicChips.forEach((chip) => {
+        chip.addEventListener('click', () => {
+          activeTopic = chip.dataset.filterTopic;
+          topicChips.forEach((c) => {
+            const isActive = c === chip;
+            c.setAttribute('aria-pressed', String(isActive));
+            c.classList.toggle('bg-light-secondary-container', isActive);
+            c.classList.toggle('text-light-on-secondary-container', isActive);
+            c.classList.toggle('border', !isActive);
+            c.classList.toggle('border-light-outline-variant', !isActive);
+            c.classList.toggle('bg-light-surface-container-lowest', !isActive);
+            c.classList.toggle('text-light-on-surface', !isActive);
+          });
+          applyFilters();
+        });
+      });
+    })();
+  </script>
+
+
+</body></html>
